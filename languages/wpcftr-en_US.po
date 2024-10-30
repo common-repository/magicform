@@ -1,0 +1,735 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-14 15:24+0200\n"
+"PO-Revision-Date: 2019-03-29 12:10+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: ajax.php:64
+msgid "Ошибка загрузки файлов."
+msgstr "Error loading files."
+
+#: magic-form.php:51
+msgid "Расширение не подходит"
+msgstr "Extension does not fit"
+
+#: magic-form.php:52
+msgid "Файл большой"
+msgstr "Large file"
+
+#: admin/admin-menu.php:21 admin/admin-menu.php:96
+#: admin/Magic_Form_AdminFunc.php:153
+msgid "Настройки формы"
+msgstr "Form settings"
+
+#: admin/admin-menu.php:21
+msgid "Формы"
+msgstr "Forms"
+
+#: admin/admin-menu.php:33
+msgid "Данные сохранены"
+msgstr "Data saved"
+
+#: admin/admin-menu.php:50
+msgid "название_опции"
+msgstr "option_name"
+
+#: admin/admin-menu.php:67
+msgid "Save"
+msgstr "Save"
+
+#: admin/admin-menu.php:68
+msgid "Cancel"
+msgstr "Cancel"
+
+#: admin/admin-menu.php:81
+msgid "Введите заголовок"
+msgstr "Enter title"
+
+#: admin/admin-menu.php:82
+msgid "название формы"
+msgstr "form name"
+
+#: admin/admin-menu.php:87
+msgid "Сохранить изменения"
+msgstr "Save changes"
+
+#: admin/admin-menu.php:91
+msgid "Конструктор"
+msgstr "Constructor"
+
+#: admin/admin-menu.php:94 admin/Magic_Form_AdminFunc.php:72
+msgid "Отправка письма"
+msgstr "Sending letter"
+
+#: admin/admin-menu.php:95
+msgid "Сообщения об ошибках"
+msgstr "Error messages"
+
+#: admin/admin-menu.php:97
+msgid "Form logs"
+msgstr "Form logs"
+
+#: admin/admin-menu.php:98 admin/Magic_Form_AdminFunc.php:220
+msgid "Автоответчик"
+msgstr "Answering machine"
+
+#: admin/admin-menu.php:99 admin/Magic_Form_AdminFunc.php:269
+msgid "Антиспам"
+msgstr "Antispam"
+
+#: admin/admin-menu.php:135
+msgid "Существующие формы"
+msgstr "Existing forms"
+
+#: admin/admin-menu.php:136
+msgid "Добавить новую"
+msgstr "Add new"
+
+#: admin/admin-menu.php:141
+msgid "Заголовок"
+msgstr "Headline"
+
+#: admin/admin-menu.php:142
+msgid "Шорткод"
+msgstr "Shortcode"
+
+#: admin/admin-menu.php:143
+msgid "Автор"
+msgstr "Author"
+
+#: admin/admin-menu.php:144
+msgid "Дата обновления"
+msgstr "Update Date"
+
+#: admin/admin-menu.php:155
+msgid "Без названия"
+msgstr "Untitled"
+
+#: admin/admin-menu.php:156
+msgid "Изменить"
+msgstr "Change"
+
+#: admin/Magic_Form_AdminFunc.php:28 admin/backend-l10n-arr.php:3
+msgid "Текстовое поле"
+msgstr "Text field"
+
+#: admin/Magic_Form_AdminFunc.php:29 admin/backend-l10n-arr.php:4
+msgid "Выбор Checkbox"
+msgstr "Checkbox selection"
+
+#: admin/Magic_Form_AdminFunc.php:30 admin/backend-l10n-arr.php:5
+msgid "Выпадающий список"
+msgstr "Drop-down list"
+
+#: admin/Magic_Form_AdminFunc.php:31 admin/backend-l10n-arr.php:6
+msgid "Выбор Radio"
+msgstr "Radio Selection"
+
+#: admin/Magic_Form_AdminFunc.php:32 admin/backend-l10n-arr.php:7
+msgid "Большое текстовое поле"
+msgstr "Large text field"
+
+#: admin/Magic_Form_AdminFunc.php:33 admin/backend-l10n-arr.php:8
+msgid "E-mail"
+msgstr "E-mail"
+
+#: admin/Magic_Form_AdminFunc.php:34 admin/backend-l10n-arr.php:9
+msgid "Телефон"
+msgstr "Phone"
+
+#: admin/Magic_Form_AdminFunc.php:35 admin/backend-l10n-arr.php:10
+msgid "Пароль"
+msgstr "Password"
+
+#: admin/Magic_Form_AdminFunc.php:36 admin/backend-l10n-arr.php:11
+msgid "Url"
+msgstr "Url"
+
+#: admin/Magic_Form_AdminFunc.php:37 admin/backend-l10n-arr.php:12
+msgid "Дата"
+msgstr "Date"
+
+#: admin/Magic_Form_AdminFunc.php:38 admin/backend-l10n-arr.php:14
+msgid "Файл"
+msgstr "File"
+
+#: admin/Magic_Form_AdminFunc.php:39 admin/backend-l10n-arr.php:15
+msgid "Quiz"
+msgstr "Quiz"
+
+#: admin/Magic_Form_AdminFunc.php:40 admin/backend-l10n-arr.php:13
+msgid "Кнопка ОТПРАВИТЬ"
+msgstr "SUBMIT button"
+
+#: admin/Magic_Form_AdminFunc.php:45 classes/Magic_FormsLogs.php:23
+msgid "Данные формы"
+msgstr "Form data"
+
+#: admin/Magic_Form_AdminFunc.php:73
+msgid "При отправке формы, на указаную почту будет отправленно письмо с данными формы"
+msgstr "When sending the form, a letter with the form data will be sent to the specified mail"
+
+#: admin/Magic_Form_AdminFunc.php:74 admin/Magic_Form_AdminFunc.php:222
+msgid "В шаблоне вы можете использовать эти теги для вставки данных"
+msgstr "In the template, you can use these tags to insert data"
+
+#: admin/Magic_Form_AdminFunc.php:87 admin/Magic_Form_AdminFunc.php:235
+msgid "Отправить письмо"
+msgstr "To send a letter"
+
+#: admin/Magic_Form_AdminFunc.php:93
+msgid "Кому"
+msgstr "To whom"
+
+#: admin/Magic_Form_AdminFunc.php:101 admin/Magic_Form_AdminFunc.php:241
+msgid "От кого"
+msgstr "From whom"
+
+#: admin/Magic_Form_AdminFunc.php:110 admin/Magic_Form_AdminFunc.php:250
+msgid "Тема"
+msgstr "Theme"
+
+#: admin/Magic_Form_AdminFunc.php:118 admin/Magic_Form_AdminFunc.php:258
+msgid "Тело письма"
+msgstr "Letter body"
+
+#: admin/Magic_Form_AdminFunc.php:130
+msgid "Использовать HTML-формат письма"
+msgstr "Use HTML letter format"
+
+#: admin/Magic_Form_AdminFunc.php:141
+msgid "Здесь вы можете редактировать сообщения, используемые в различных ситуациях."
+msgstr "Here you can edit the messages used in various situations."
+
+#: admin/Magic_Form_AdminFunc.php:154
+msgid "Здесь вы можете задать поведение формы и ее внешний вид."
+msgstr "Here you can set the behavior of the form and its appearance."
+
+#: admin/Magic_Form_AdminFunc.php:157
+msgid "Url на который будет отправлена форма. Если оставить пустым, то данные формы придут только на почту."
+msgstr "Url to which the form will be sent. If left blank, these forms will only come to the email."
+
+#: admin/Magic_Form_AdminFunc.php:161
+msgid "Метод отправки."
+msgstr "Dispatch method."
+
+#: admin/Magic_Form_AdminFunc.php:167
+msgid "Id формы"
+msgstr "Id forms"
+
+#: admin/Magic_Form_AdminFunc.php:170
+msgid "Имя Формы"
+msgstr "Form Name"
+
+#: admin/Magic_Form_AdminFunc.php:173
+msgid "Добавьте class к форме"
+msgstr "Add a class to the form"
+
+#: admin/Magic_Form_AdminFunc.php:176
+msgid "Добавьте style к форме"
+msgstr "Add style to the form"
+
+#: admin/Magic_Form_AdminFunc.php:179
+msgid "Добавьте js строки на Ваш сайт"
+msgstr "Add js lines to your site"
+
+#: admin/Magic_Form_AdminFunc.php:182
+msgid "Добавьте css строки на Ваш сайт"
+msgstr "Add css lines to your site"
+
+#: admin/Magic_Form_AdminFunc.php:189
+msgid "Дата отправки"
+msgstr "Departure date"
+
+#: admin/Magic_Form_AdminFunc.php:190
+msgid "Ошибки"
+msgstr "Errors"
+
+#: admin/Magic_Form_AdminFunc.php:202
+msgid "Показать еще"
+msgstr "Show more"
+
+#: admin/Magic_Form_AdminFunc.php:221
+msgid "Если в форме будет поле Email то это письмо будет отправлено на указанный адрес"
+msgstr "If the form contains an Email field, this email will be sent to the specified address"
+
+#: admin/Magic_Form_AdminFunc.php:270
+msgid "Добавьте слова с новой строки. При нахождении их в форме. Данные будут сохранены в лог, но не отправлены в форме и на почту"
+msgstr "Add words from the new line. When finding them in shape. The data will be saved to the log, but not sent in the form and in the mail"
+
+#: admin/Magic_Form_AdminFunc.php:272
+msgid "Фразы"
+msgstr "Phrases"
+
+#: admin/backend-l10n-arr.php:16
+msgid "Заполните обязательные поля формы"
+msgstr "Fill in the required fields"
+
+#: admin/backend-l10n-arr.php:17
+msgid "нет еще обработки"
+msgstr "no processing yet"
+
+#: admin/backend-l10n-arr.php:18
+msgid "Подпись при отображении формы."
+msgstr "Signature when displaying the form."
+
+#: admin/backend-l10n-arr.php:19
+msgid "Выводит текст внутри поля формы, который исчезает при вводе текста в этом поле."
+msgstr "Displays text inside the form field, which disappears when you enter text in this field."
+
+#: admin/backend-l10n-arr.php:20
+msgid "Из формы будет удален текст, указанный здесь."
+msgstr "The text specified here will be deleted from the form."
+
+#: admin/backend-l10n-arr.php:21
+msgid "Внутри поля формы будет размещен введенный здесь текст, его можно будет стереть и вводить свои символы."
+msgstr "The text entered here will be placed inside the form field, it can be erased and you can enter your own characters."
+
+#: admin/backend-l10n-arr.php:22
+msgid "Подпись для кнопки."
+msgstr "Signature for the button."
+
+#: admin/backend-l10n-arr.php:23
+msgid "Значение, выбранное по умолчанию."
+msgstr "The default value."
+
+#: admin/backend-l10n-arr.php:24
+msgid "Пара вопрос|ответ."
+msgstr "Couple question|answer."
+
+#: admin/backend-l10n-arr.php:25
+msgid "Перечислите свойства, новое свойство с новой строки."
+msgstr "List the properties, the new property from the new line."
+
+#: admin/backend-l10n-arr.php:26
+msgid "Минимально допустимая дата. Если дата не указана, то ограничений нет."
+msgstr "The minimum allowable date. If the date is not specified, then there are no restrictions."
+
+#: admin/backend-l10n-arr.php:27
+msgid "Максимально допустимая дата. Если дата не указана, то ограничений нет."
+msgstr "Maximum acceptable date. If the date is not specified, then there are no restrictions."
+
+#: admin/backend-l10n-arr.php:28
+msgid "Использовать размер шрифта темы"
+msgstr "Use theme font size"
+
+#: admin/backend-l10n-arr.php:29
+msgid "Перечислите допустимые расширения файлов через запятую без пробелов. Если пустое поле, то ограничений нет."
+msgstr "List the allowed file extensions separated by commas with no spaces. If the field is empty, then there are no restrictions."
+
+#: admin/backend-l10n-arr.php:30
+msgid "Укажите максимальный размер загружаемого файла в Мб. Если указан 0 или пустое поле, то размер файла не ограничен, и это может привести к переполнению хранилища файлами большого размера."
+msgstr "Specify the maximum size of the downloaded file in MB. If 0 or a blank field is specified, the file size is unlimited, and this may result in the storage being full with large files."
+
+#: admin/backend-l10n-arr.php:31
+msgid "Минимально допустимая длина. Если 0 или пустое поле, то ограничений нет."
+msgstr "Minimum allowed length. If 0 or an empty field, then there are no restrictions."
+
+#: admin/backend-l10n-arr.php:32
+msgid "Максимально допустимая длина. Если 0 или пустое поле, то ограничений нет."
+msgstr "Maximum admissible length. If 0 or an empty field, then there are no restrictions."
+
+#: admin/backend-l10n-arr.php:33
+msgid "еще одно свойство поля"
+msgstr "another field property"
+
+#: admin/backend-l10n-arr.php:34
+msgid "Маловато"
+msgstr "Not much"
+
+#: admin/backend-l10n-arr.php:35
+msgid "Я таких значений не знаю"
+msgstr "I do not know such values"
+
+#: classes/Magic_FormsLogs.php:36
+msgid "Ошибки формы"
+msgstr "Form errors"
+
+#: classes/Magic_FormsLogs.php:65
+msgid "ошибок нет"
+msgstr "no errors"
+
+#: classes/Magic_FormsLogs.php:65
+msgid "просмотреть ошибки"
+msgstr "view errors"
+
+#: classes/Magic_FormsLogs.php:66
+msgid "Подробней"
+msgstr "Read more"
+
+msgid "Принимаются расширения:"
+msgstr "Extensions accepted:"
+
+msgid "Максимальный размер:"
+msgstr "Maximum size:"
+
+msgid "Сохранить форму"
+msgstr "Save the form"
+
+msgid "Для применения изменений необходимо сохранить форму"
+msgstr "To apply the changes, you must save the form"
+
+msgid "Значение максимальной даты должно быть всегда больше значения минимальной даты"
+msgstr "The maximum date must always be older than the minimum date"
+
+msgid "Значение максимальной длины должно быть всегда больше значения минимальной длины"
+msgstr "The maximum length must always be greater than the minimum length"
+
+msgid "По умолчанию"
+msgstr "Default"
+
+msgid "Удалить"
+msgstr "Delete"
+
+msgid "Название поля"
+msgstr "Field Name"
+
+msgid "Показать дополнительные параметры"
+msgstr "Show advanced options"
+
+msgid "Значение размера не может быть отрицательным"
+msgstr "Size cannot be negative"
+
+msgid "Форма удалена"
+msgstr "Form removed"
+
+msgid "Устанавливает критерий/шаблон ввода."
+msgstr "Sets the entry criteria/pattern."
+
+msgid "Выбрав это поле минимальная дата всегда будет завтрашней."
+msgstr "Selecting this field the minimum date will always be tomorrow."
+
+msgid "Шорткод скопирован в буфер обмена."
+msgstr "Shortcode copied to clipboard."
+
+msgid "Скрыть дополнительные параметры"
+msgstr "Hide advanced options"
+
+msgid "копировать шорткод"
+msgstr "copy shortcode"
+
+msgid "Размер шрифта задаваемого вопроса"
+msgstr "Font size of the question asked"
+
+msgid "Размер шрифта названия поля"
+msgstr "Font size field name"
+
+msgid "Цвет шрифта задаваемого вопроса"
+msgstr "Font color of the question asked"
+
+msgid "Цвет шрифта названия поля"
+msgstr "Font color field name"
+
+msgid "Размер шрифта свойств поля"
+msgstr "Font size of field properties"
+
+msgid "Размер шрифта подписи кнопки"
+msgstr "Button Signature Font Size"
+
+msgid "Размер шрифта внутри поля формы"
+msgstr "Font size inside the form field"
+
+msgid "Цвет шрифта свойств поля"
+msgstr "Font color of field properties"
+
+msgid "Цвет шрифта подписи кнопки"
+msgstr "Button Font Color"
+
+msgid "Цвет шрифта внутри поля формы"
+msgstr "Font color inside the form field"
+
+msgid "Мин. длина"
+msgstr "Min length"
+
+msgid "Макс. длина"
+msgstr "Max. length"
+
+msgid "Мин. дата"
+msgstr "Min date"
+
+msgid "Макс. дата"
+msgstr "Max. date"
+
+msgid "Список свойств"
+msgstr "Property List"
+
+msgid "Под этим именем данные отправляются на сервер. Используется в качестве тегов при создании шаблонов писем."
+msgstr "Under this name, data is sent to the server. Used as tags when creating letter templates."
+
+msgid "не может содержать пробелы"
+msgstr "cannot contain spaces"
+
+msgid "Спасибо, форма отправлена"
+msgstr "Thank you, the form has been submitted"
+
+msgid "Error. При отправке формы возникли ошибки, свяжитесь с администратором"
+msgstr "Error. There were errors while sending the form, contact the administrator"
+
+msgid "Отправляемые данные определены как спам [label] [spam]"
+msgstr "Data sent is identified as spam [label] [spam]"
+
+msgid "Неверный ответ на проверочный вопрос"
+msgstr "Invalid answer to verification question"
+
+msgid "Поле [label] обязательное"
+msgstr "[label] field is required"
+
+msgid "Поле [label] меньше допустимой"
+msgstr "[label] field is less than valid"
+
+msgid "Поле [label] больше допустимой"
+msgstr "[label] field is greater than valid"
+
+msgid "Поле [label] длина больше допустимой"
+msgstr "[label] field is longer than allowed"
+
+msgid "Поле [label] длина меньше допустимой"
+msgstr "[label] field is shorter than allowed"
+
+msgid "Превышен размер загружаемого файла"
+msgstr "File size exceeded"
+
+msgid "Поле [label] разрешается вводить только цифры 0-9 и символы ),(,-"
+msgstr "The [label] field allows to enter only numbers 0-9 and characters), (, -"
+
+msgid "Уведомление успешной отправки сообщения"
+msgstr "Successful post notification"
+
+msgid "Уведомление ошибки отправки сообщения"
+msgstr "Publication error notification"
+
+msgid "Отправляемые данные определены как спам. Теги [label] [spam]"
+msgstr "Data sent is identified as spam. Tags [label] [spam]"
+
+msgid "Уведомление неверный ответ на проверочный вопрос"
+msgstr "Notification of invalid answer to the verification question"
+
+msgid "[label] меньше допустимой"
+msgstr "[label] less than acceptable"
+
+msgid "[label] больше допустимой"
+msgstr "[label] more than acceptable"
+
+msgid "[label] длина больше допустимой"
+msgstr "[label] length is longer than acceptable"
+
+msgid "[label] длина меньше допустимой"
+msgstr "[label] length less than allowed"
+
+msgid "Уведомление о превышении размера загружаемого файла"
+msgstr "Notification of exceeding the size of the uploaded file"
+
+msgid "Уведомление о неподходящем расширении файла"
+msgstr "Notification of inappropriate file extension"
+
+msgid "[label] ввод запрещенных символов"
+msgstr "[label] forbidden character input"
+
+msgid "не может быть отрицательным"
+msgstr "can not be negative"
+
+msgid "Значение минимальной длины не может быть больше значения максимальной длины"
+msgstr "The minimum length cannot be greater than the maximum length"
+
+msgid "Размер"
+msgstr "Size"
+
+msgid "Расширения"
+msgstr "Extensions"
+
+msgid "Параметры полей формы"
+msgstr "Form field parameters"
+
+msgid "Добавьте  необходимое поле формы"
+msgstr "Add the required form field"
+
+msgid "Визуализация формы"
+msgstr "Form visualization"
+
+msgid "Отображение  формы"
+msgstr "Form display"
+
+msgid "Инструменты"
+msgstr "Instruments"
+
+msgid "CheckBox"
+msgstr "CheckBox"
+
+msgid "RadioButton"
+msgstr "RadioButton"
+
+msgid "Textarea"
+msgstr "Textarea"
+
+msgid "Свойства, перечисленные в этом поле, будут в форме отображаться выбранными, новое свойство с новой строки."
+msgstr "The properties listed in this field will be displayed in the form selected, a new property from a new line."
+
+msgid "Свойство, указанное в этом поле, будет в форме отображаться выбранным. Можно выбрать только одно свойство."
+msgstr "The property specified in this field will be selected in the form. You can select only one property."
+
+msgid "ContactForm. Sending letter error."
+msgstr "ContactForm. Sending letter error."
+
+msgid "ContactForm. Answering machine error."
+msgstr "ContactForm. Answering machine error."
+
+msgid "При отправке письма возникли ошибки, проверьте вкладку Отправка письма"
+msgstr "There were errors while sending the letter, check the Send letter tab"
+
+msgid "При отправке письма автоответчиком возникли ошибки, проверьте вкладку Автоответчик"
+msgstr "There were errors while sending a letter to the auto answering machine, check the Auto Answering Machine tab"
+
+msgid "Ошибка отправки письма"
+msgstr "Error sending letter"
+
+msgid "Ошибка автоответчика"
+msgstr "Auto Answering machine error"
+
+msgid "Url, на который будет перенаправлен пользователь после отправки формы. Если оставить пустым, пользователь останется на той же странице"
+msgstr "Url to which the user will be redirected after submitting the form. If left blank, the user will remain on the same page"
+
+msgid "Всплывающее окно"
+msgstr "Pop-up window"
+
+msgid "Использовать форму во всплывающем окне"
+msgstr "Use form in popup window"
+
+msgid "Во всплывающем окне используется форма"
+msgstr "The popup window uses the form"
+
+msgid "Чтобы использовать эту форму, необходимо отметить чекбокс"
+msgstr "To use this form, check the box"
+
+msgid "Форма должна содержать минимум 2 поля"
+msgstr "The form must contain at least 2 fields"
+
+msgid "IP адрес отправителя"
+msgstr "IP address of the sender"
+
+msgid "e-mail отправителя"
+msgstr "sender's e-mail"
+
+msgid "Тема письма"
+msgstr "Topic of the letter"
+
+msgid "Уведомление успешной отправки формы"
+msgstr "Successful form notification"
+
+msgid "Уведомление ошибки отправки формы"
+msgstr "Notification of form submission error"
+
+msgid "Вы не прошли проверку Я не робот"
+msgstr "You did not pass the test I'm not a robot"
+
+msgid "Проверка reCAPTCHA не пройдена"
+msgstr "ReCAPTCHA check failed"
+
+msgid "Ширина поля"
+msgstr "Field width"
+
+msgid "Выравнивание"
+msgstr "Alignment"
+
+msgid "Выравнивание по левому краю"
+msgstr "Align left"
+
+msgid "Выравнивание по центру"
+msgstr "Center alignment"
+
+msgid "Выравнивание по правому краю"
+msgstr "Align right"
+
+msgid "Ключ"
+msgstr "Key"
+
+msgid "Секретный ключ"
+msgstr "The secret key"
+
+msgid "Ключи получить можно здесь"
+msgstr "You can get the keys here"
+
+msgid "Пользовательское соглашение"
+msgstr "User Agreement"
+
+msgid "Экспортировать в CSV"
+msgstr "Export to CSV"
+
+msgid "Поиск"
+msgstr "Search"
+
+msgid "Поиск по e-mail"
+msgstr "Search by email"
+
+msgid "Введите e-mail"
+msgstr "Enter your email"
+
+msgid "Соглашение принято."
+msgstr "Agreement is accepted."
+
+msgid "Я принимаю условия пользовательского соглашения"
+msgstr "Accept the agreement"
+
+msgid "Вы действительно хотите удалить все записи с e-mail"
+msgstr "Do you really want to delete all entries from the e-mail"
+
+msgid "Вы действительно хотите удалить форму?"
+msgstr "Do you really want to delete the form?"
+
+msgid "Количество удаленных записей:"
+msgstr "Number of deleted records:"
+
+msgid "Принять"
+msgstr "Accept the agreement"
+
+msgid "Поиск по e-mail, экспорт и удаление данных"
+msgstr "Search by e-mail, export and delete data"
+
+msgid "Соглашаясь с этим пунктом ваш сайт будет отправлять название домена на сервер разработчика, чтобы последний мог проверять доступность сайта. Функция mail () будет отправлять тестовое письмо (пустое) на сервер разработчика для проверки работоспособности последней. Никакие данные в виде email адресов, контактов, телефонов и т.п. не будут отправляться."
+msgstr "Your agreeing with this item implies that your website is to be sending the domain name to the developer's website so that they are able to check the resource's availability. The mail() function will be sending a test (blank) letter to the developer's server for the performance check. No private data like email addresses, contacts, or phone numbers will be sent."
+
+msgid "Опции"
+msgstr "Options"
+
+msgid "Я согласен"
+msgstr "I Agree"
+
+msgid "Сохранить"
+msgstr "Save"
+
+msgid "Открыть Url в новой вкладке. Если оставить пустым, Url откроется в той же вкладке"
+msgstr "Open Url in a new tab. If left blank, the url will open in the same tab"
+
+msgid "Добавьте js строки на Ваш сайт, которые будут выполнены после успешной отправки формы"
+msgstr "Add js lines to your site that will be executed after successfully submitting the form"
+
+msgid "Ваш шорткод"
+msgstr "Your ShortCode Is"
+
+msgid "Вам необходимо поместить его в Текстовое Поле"
+msgstr "You should put it into the Text Field"
+
+msgid "И сохранить"
+msgstr "And Save It"
+
+msgid "О нет! Кажется, у вас старая версия PHP, которая не совместима с плагином Magic Form. Пожалуйста, обновите Ваш PHP и снова попробуйте активировать плагин. Ваша текущая версия PHP: "
+msgstr "Oh, no! Seems you have an old PHP version that is not compatible with Magic Form plugin. Please update your PHP and then try activating the plugin again. Your current PHP version: "
+
+msgid ". Минимальная рекомендуемая версия PHP для плагина Magic Form: 5.6.38. WordPress настоятельно рекомендует использовать PHP версии 7.3 или выше"
+msgstr ". Minimal PHP version required for Magic Form plugin: 5.6.38. WordPress highly recommends using PHP 7.3 or grater version"
+
+msgid "Ошибка плагина Magic Form"
+msgstr "Magic Form plugin error"

@@ -1,0 +1,235 @@
+/*   --------------------form------------------- */
+.form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-group .form-control {
+    display: block;
+    width: 100%;
+    min-height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    resize: none;
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+    color: #999
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #999
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    cursor: not-allowed;
+    background-color: #eee;
+    opacity: 1
+}
+
+.form-btn {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    padding: 6px 12px;
+    font-size: 14px;
+    width: 100%;
+    transition: all .3s ease;
+    margin: 5px 0;
+}
+
+.form-btn:hover {
+    background-color: #cccccc;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.form-group.error .form-control,
+.form-group.error span,
+.form-group .error input[type=radio],
+.form-group .error input[type=checkbox] {
+    border-color: red;
+}
+.form-group.error label,
+.form-group label.error,
+.form-group .error input[type=checkbox]:checked:before,
+.form-group .error input[type=radio]:checked:before,
+.message-error {
+    color: red;
+}
+.form-group .error input[type=radio]:checked:before {
+    background-color: red;
+}
+
+.form-group input[type=radio],
+.form-group input[type=checkbox] {
+    border: 1px solid #b4b9be;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 16px;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 16px;
+    min-width: 16px;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    transition: .05s border-color ease-in-out
+}
+
+.form-group input[type=radio]:checked + label:before {
+    color: #82878c
+}
+
+.form-group input[type=radio] {
+    border-radius: 50%;
+    margin-right: 4px;
+    line-height: 10px
+}
+
+.form-group input[type=radio]:checked:before,
+.form-group input[type=checkbox]:checked:before {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    font: 400 21px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.form-group input[type=checkbox]:checked:before {
+    content: "\2713";
+    margin: 0;
+    font-size: 16px;
+    line-height: 14px;
+    color: #1e8cbe
+}
+
+.form-group input[type=radio]:checked:before {
+    content: "\2022";
+    text-indent: -9999px;
+    border-radius: 50px;
+    font-size: 24px;
+    width: 6px;
+    height: 6px;
+    margin: 4px;
+    line-height: 16px;
+    background-color: #1e8cbe
+}
+
+.form-group select {
+    width: 100%;
+    margin: 5px 0;
+}
+
+#parent_popup_contactform {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#popup_contactform {
+    background: #fff;
+    width: 520px;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border: 10px solid #ddd;
+    position: relative;
+    /*--CSS3 Тени для Блока--*/
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    box-shadow: 0px 0px 20px #000;
+    /*--CSS3 Скругленные углы--*/
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.popup-contactform-close {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #ccc;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    right: -24px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    top: -24px;
+    width: 24px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close-contactform-close:hover {
+    background-color: rgba(0, 122, 200, 0.8);
+}
+
+#popup_contactform  h2 {
+    font-size: 26px;
+    color: #071580;
+}
+
+#popup_contactform  p {
+    font-size: 16px;
+    color: #000;
+}
+
+.field-left-alignment{
+    text-align: left;
+}
+.field-center-alignment{
+    text-align: center;
+}
+.field-right-alignment{
+    text-align: right;
+}
